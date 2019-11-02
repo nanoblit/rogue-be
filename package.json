@@ -19,10 +19,16 @@
   },
   "homepage": "https://github.com/nanoblit/rogue-be#readme",
   "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/socket.io": "^2.1.4",
     "@typescript-eslint/eslint-plugin": "^2.6.0",
     "@typescript-eslint/parser": "^2.6.0",
     "eslint": "^6.6.0",
     "ts-node-dev": "^1.0.0-pre.43",
     "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
   }
 }
